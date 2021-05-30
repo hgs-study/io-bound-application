@@ -1,10 +1,11 @@
-package class101.foo.io;
+package class101.foo.io.post.entity;
 
 import lombok.Data;
+import lombok.Getter;
 
 import javax.persistence.*;
 
-@Data
+@Getter
 @Entity(name = "post")
 public class Post {
     @Id
